@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logoFasoloSemFundoPeq.png"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Lancheria de Pizzaria Fasolo</title>
+</head>
+<body>
+
+
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <img src="imagens/logoFasoloSemFundoPeq.png" >
+            </div>
+            <ul class="menu">
+                <li><a href="#topo" class="menu-btn">HOME</a></li>
+                <li><a href="#promocoes" class="menu-btn">PROMOÇÕES</a></li>
+                <li><a href="#cardapio" class="menu-btn">CARDÁPIO</a></li>
+                <li><a href="#contact" class="menu-btn">CONTATO</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="top" id="topo">
+        <div class="max-width">
+           <div class="top-content" >
+               <div class="text-1">Aguardem ...</div>
+               <div class="text-2">vem novidades por ai!</div>
+               <div class="text-3">Faça seu pedido.</div>
+               <a href="#contact">Entrar em contato</a>
+           </div>
+        </div>
+    </section>
+
+    <section class="promocoes" id="promocoes">
+        <div class="max-width">
+            <h2 class="title">PROMOÇÕES</h2>
+            <ul id="album-fotos">
+                    
+                <li id="foto01"></li>
+                <li id="foto02"></li>
+                <li id="foto03"></li>
+                <li id="foto04"></li>
+                <li id="foto05"></li>
+                <li id="foto06"></li>
+                <li id="foto07"></li>
+                <li id="foto08"></li>
+            </ul>  
+        </div>
+
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <div class="max-width">
+            <div class="galeria-modal" onclick="fecharGaleria()">
+                <img src="" alt="">
+            </div>
+            <h2 class="title">CARDÁPIO</h2>
+            <div class="galeria">
+                <div class="single-galeria w- h-2" >
+                    <img src="imagens/cardapioBurguers.jpg" alt="" onclick="abrirGaleria('imagens/cardapioBurguers.jpg')">
+                </div>
+                <div class="single-galeria w-1 h-2">
+                    <img src="imagens/cardapioLanches.jpg" alt="" onclick="abrirGaleria('imagens/cardapioLanches.jpg')">
+                </div>
+                <div class="single-galeria w-1 h-2">
+                    <img src="imagens/cardapioPizza.jpg" alt="" onclick="abrirGaleria('imagens/cardapioPizza.jpg')">
+                </div>
+                <div class="single-galeria w-1 h-2">
+                    <img src="imagens/cardapioPizza1.jpg" alt="" onclick="abrirGaleria('imagens/cardapioPizza1.jpg')">
+                </div>
+              
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <p> Estou em busca de uma oportunidade no mercado da programação. 
+                        Entre em contato.
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sun-titlt">Lancheria e Pizzaria Fasolo</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Contato</div>
+                                <div class="sub-title">(53) 98455-0773</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Av.Cristovão Jose dos Santos, Nº 500</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Mensagem de Contato</div>
+                    <form>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Digite o nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Digite o e-mail" required>
+                            </div>
+                            <div class="field assunto" >
+                                <input type="text" placeholder="Digite o assunto" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" placeholder="Digite o conteúdo" required></textarea>
+                            </div>
+
+                            <div class="button-area">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    
+    
+
+
+
+    <footer>
+        <span>Create by <a href="#"> Bruno Rosa </a></span><br>
+        <p>Contato: (53) 99165-0423</p>
+        <p>brunodoamaral10@gmail.com</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="custom.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
