@@ -93,7 +93,7 @@ body {
         text-align: center;
         padding-top: 80px;
         transition:  all 0.9s ease;
-        border: solid black 30px;
+        border: solid black 5px;
     }
     .navbar .menu.active {
         left: 0;
