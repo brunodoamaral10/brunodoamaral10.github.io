@@ -309,7 +309,7 @@ ul#album-fotos li#foto03:hover {
 }
 
 ul#album-fotos li#foto04 {
-    background: url('imagens/combo2.jpg') no-repeat;
+    background: url('imagens/comboMonster.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 250px 250px;
     background-color: #ffffff
@@ -320,7 +320,7 @@ ul#album-fotos li#foto04:hover {
     background-size: 220px 220px;
 }
 ul#album-fotos li#foto05 {
-    background: url('imagens/fasolo4.jpg') no-repeat;
+    background: url('imagens/xisSalada.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 250px 250px;
     background-color: #ffffff
