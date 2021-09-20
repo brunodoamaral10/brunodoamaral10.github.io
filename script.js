@@ -11,3 +11,14 @@ function abrirGaleria(src) {
     iGM.style.transform = "scale(0.7)";
     iGM.src = src
 }
+
+$(function(){
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
+    $('.navbar .menu li a').click(function(){
+        $('html').css("scrollBehavior","smooth");
+    })
+});

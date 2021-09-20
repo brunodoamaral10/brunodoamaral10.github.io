@@ -63,13 +63,13 @@ body {
     display: block;
     color: white;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 100;
     margin-left: 25px;
 }
 
 .menu-btn {
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     cursor: pointer;
     display: none;
 }
@@ -83,7 +83,7 @@ body {
         content:"\f00d";
     }
     .navbar .menu {
-        background-color: #121721;
+        background-color: #610404;
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -91,7 +91,8 @@ body {
         top: 0;
         text-align: center;
         padding-top: 80px;
-        transition:  all 0.3s ease;
+        transition:  all 0.9s ease;
+        border: solid black 30px;
     }
     .navbar .menu.active {
         left: 0;
@@ -182,10 +183,9 @@ section {
 
 .promocoes .title {
     text-align: center;
-    margin: 60px 0;
+    margin: 60px;
     font-weight: 400;
     font-size: 35px;
-
 }
 
 ul#album-fotos {
@@ -334,41 +334,55 @@ ul#album-fotos li#foto08:hover {
         -webkit-transition: all .4s ease-in;
     }
  }
- @media (max-width: 600px) {
+ @media (max-width: 768px) {
     .promocoes .title {
         text-align: center;
-        margin: 10px 0;
-        font-weight: 400;
+        margin-top: 60px;
+        font-weight: 100;
         font-size: 25px;
     }
     ul#album-fotos li {
         float: left;
-        width: 40px;
-        height: 40px;
+        width: 150px;
+        height: 150px;
         margin: 15px;
         border: 5px solid #ffffff;
         background-color: #ffffff;
         box-shadow: 1px 1px 3px rgba(0,0,0,.4);
         -webkit-transition: all .4s ease-in;
     }
+    ul#album-fotos {
+        width: 100%;
+        height: 30vh;
+        margin: 0 auto;
+        list-style: none; 
+    }
  }
  @media (max-width: 500px) {
     .promocoes .title {
         text-align: center;
-        margin: 90px;
-        font-weight: 400;
+        margin: 100px;
+        font-weight: 250;
         font-size: 20px;
     }
     ul#album-fotos li {
         float: left;
-        width: 80px;
-        height: 130px;
-        margin: 2px;
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        margin-left: 30px;
         border: 2px solid #ffffff;
         background-color: #ffffff;
         box-shadow: 1px 1px 3px rgba(0,0,0,.4);
         -webkit-transition: all .4s ease-in;
     }
+    ul#album-fotos {
+        width: 100%;
+        height: 90vh;
+        margin: 0 auto;
+        list-style: none; 
+    }
+
     ul#album-fotos li#foto01:hover,
     ul#album-fotos li#foto02:hover,
     ul#album-fotos li#foto03:hover,
@@ -378,7 +392,7 @@ ul#album-fotos li#foto08:hover {
     ul#album-fotos li#foto07:hover,
     ul#album-fotos li#foto08:hover {
         background-position: 0px 0px;
-        background-size: 80px 130px;
+        background-size: 150px 150px;
     }
  }
 
@@ -418,7 +432,7 @@ ul#album-fotos li#foto08:hover {
 
 section {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
 }
 
@@ -474,7 +488,6 @@ section {
     .cardapio .title {
         text-align: center;
         margin: 60px;
-        font-weight: 100;
         font-size: 25px;
     }
  }
@@ -482,9 +495,8 @@ section {
  
     .cardapio .title {
         text-align: center;
-        margin: 90px 0;
-        font-weight: 400;
-        font-size: 15px;
+        margin: 100px;
+        font-size: 20px;
        
     }
  }
